@@ -1,0 +1,22 @@
+body::before{
+    display: block;
+    content: '';
+    height: 60px;
+}
+
+.navbar .container .navbar-brand{
+    background-color: #FFC119;
+    border: 1px solid white;
+    padding: 10px 15px;
+    border-radius: 10px;
+    color: black;
+}
+.navbar .container .navbar-brand:hover{
+    transform:translateX(10px);
+    transition: all ease .4s;
+}
+
+.p5 .container .row .col-md img{
+    width: 25rem;
+}
+
